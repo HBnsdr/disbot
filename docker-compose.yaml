@@ -1,0 +1,10 @@
+version: '3'
+services:
+  disbot:
+    build: .
+    container_name: disbot
+    restart: always
+    volumes:
+      - ./bot:/app
+#    environment:
+#     - TOKEN=MjQ1NTg2NTg5MjQ4NTIwMTky.Gh7hNl.O17f4Ei6FLsSaVV4S8YfqlRBgQYfqb3XO1k-7s
