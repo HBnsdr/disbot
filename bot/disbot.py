@@ -10,7 +10,7 @@ class MyBot(commands.Bot):
         await self.tree.sync()
 
     async def on_ready(self) -> None:
-        print("Je suis en ligne")
+        print("I'm Online")
 
 bot = MyBot()
 
