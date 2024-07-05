@@ -20,7 +20,7 @@ async def test_command(interaction : discord.Interaction):
     await interaction.response.send_message("Oui ? Que puis-je faire pour toi ?")
 
 if __name__ == "__main__":
-    bot.run("MjQ1NTg2NTg5MjQ4NTIwMTky.Gh7hNl.O17f4Ei6FLsSaVV4S8YfqlRBgQYfqb3XO1k-7s")
+    bot.run("BOT_TOKEN")
 
 
 
